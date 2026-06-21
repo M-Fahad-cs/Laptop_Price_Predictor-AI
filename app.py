@@ -185,7 +185,7 @@ if st.button('🚀 Predict Price'):
     
     # Calculate Math
     predicted_price_euro = int(np.exp(pipe.predict(query_df)[0]))
-    predicted_price_pkr = predicted_price_euro * 165
+    predicted_price_pkr = predicted_price_euro * 205
     
     # Format with commas (e.g., 250,000)
     formatted_pkr = "{:,}".format(predicted_price_pkr)
